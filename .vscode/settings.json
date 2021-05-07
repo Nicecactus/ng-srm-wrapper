@@ -1,0 +1,15 @@
+{
+    "markdown.extension.toc.slugifyMode": "github",
+    "markdown.extension.toc.omittedFromToc": {
+        "README.md": [
+            "## Table of contents",
+            "#### **`AppModule`**",
+            "#### **`my-module-loader.component.ts`**",
+            "#### **`my-module-loader.component.html`**",
+            "#### **`AppRoutingModule`**",
+            "### [NgSRMWrapper](https://github.com/rgoupil/ng-srm-wrapper/blob/master/src/lib/ng-srm-wrapper.component.ts)",
+            "### Inputs",
+            "### Outputs"
+        ]
+    }
+}

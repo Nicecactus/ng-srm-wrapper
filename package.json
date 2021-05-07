@@ -1,0 +1,68 @@
+{
+  "name": "@robingoupil/ng-srm-wrapper",
+  "version": "0.7.4",
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build @robingoupil/ng-srm-wrapper",
+    "build:watch": "yarn build --watch",
+    "build:prod": "yarn build --prod",
+    "build:prod:watch": "yarn build:prod --watch",
+    "test": "ng test @robingoupil/ng-srm-wrapper --watch=false --browsers=ChromeHeadless",
+    "test:watch": "ng test @robingoupil/ng-srm-wrapper",
+    "lint": "ng lint @robingoupil/ng-srm-wrapper",
+    "upload": "sh ./scripts/publish_lib.sh"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.1102.1",
+    "@angular/cli": "~11.2.1",
+    "@angular/common": "^11.2.1",
+    "@angular/compiler": "^11.2.1",
+    "@angular/compiler-cli": "~11.2.1",
+    "@angular/core": "^11.2.1",
+    "@angular/forms": "^11.2.1",
+    "@angular/language-service": "^11.2.7",
+    "@angular/platform-browser": "^11.2.1",
+    "@angular/platform-browser-dynamic": "^11.2.1",
+    "@angular/router": "^11.2.1",
+    "@types/jasmine": "~3.6.0",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^6.0.0",
+    "core-js": "^3.9.1",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "~6.1.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "ng-packagr": "^11.0.0",
+    "protractor": "~7.0.0",
+    "rxjs": "^6.6.7",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~4.1.2",
+    "zone.js": "^0.11.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgoupil/ng-srm-wrapper.git"
+  },
+  "keywords": [
+    "robingoupil",
+    "rgoupil",
+    "react",
+    "angular",
+    "ng",
+    "module",
+    "wrapper"
+  ],
+  "author": "Robin Goupil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rgoupil/ng-srm-wrapper/issues"
+  },
+  "homepage": "https://github.com/rgoupil/ng-srm-wrapper#readme"
+}
