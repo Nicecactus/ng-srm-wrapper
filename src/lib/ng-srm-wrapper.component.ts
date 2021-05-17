@@ -81,8 +81,8 @@ export class NgSRMWrapperComponent implements OnInit, AfterViewInit {
 
     this.srmMethods = obj.render({
       element: this.anchorEl.nativeElement,
-      basename: this.basename || '/',
-      language: this.language || 'en',
+      basename: this.basename,
+      language: this.language,
       navigate: (commands: any[], options: NavigationExtras) => this.router.navigate(commands, { relativeTo: this.route, ...options }),
       sendEvent: (id: string, ...args: Array<any>) => this.eventHandlers?.[id]?.(...args),
       ...this.arguments,

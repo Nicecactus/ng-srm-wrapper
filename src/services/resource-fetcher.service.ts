@@ -40,6 +40,7 @@ export class ResourceFetcherService {
         case '.css':
           return this.loadStyle(`${origin}${asset}`);
       }
+      return;
     }));
   }
 
