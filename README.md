@@ -56,7 +56,7 @@ export class MyModuleLoaderComponent {
 ```
 
 #### **`my-module-loader.component.html`**
-```ts
+```html
 <ng-srm-wrapper assetManifestUrl="{{assetManifestUrl}}" exportPath="myOrg.myModule" basename="/my-module"></ng-srm-wrapper>
 ```
 
@@ -91,7 +91,9 @@ const routes: Routes = [
 | `assetManifestUrl` | Type: `string` <br /> URL to the `asset-manifest.json`. |
 | `exportPath` | Type: `string` <br /> Path to the exported `render()` function once the module has been loaded. |
 | `basename` | Type: `string` <br /> Default value: `/` <br /> Relative path the module is being served from. |
+| `language` | Type: `string` <br /> Default value: `en` <br /> Language used for i18n. |
 | `arguments` | Type: `object` <br /> Default value: `{}` <br /> Extra arguments to pass to the `render()` function. |
+| `eventHandlers` | Type: `object` <br /> Default value: `{}` <br /> Custom events that can be called by the SRM. |
 
 ### Outputs
 |||
