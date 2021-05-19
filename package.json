@@ -12,6 +12,9 @@
     "lint": "ng lint @robingoupil/ng-srm-wrapper",
     "upload": "sh ./scripts/publish_lib.sh"
   },
+  "peerDependencies": {
+    "@robingoupil/srm": "0.1.x"
+  },
   "dependencies": {
     "tslib": "^2.0.0"
   },
