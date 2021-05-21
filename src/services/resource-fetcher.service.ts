@@ -35,9 +35,9 @@ export class ResourceFetcherService {
 
       switch (ext) {
         case '.js':
-          return this.loadScript(`${originUrl}${asset}`);
+          return this.loadScript(new URL(asset, originUrl).href);
         case '.css':
-          return this.loadStyle(`${originUrl}${asset}`);
+          return this.loadStyle(new URL(asset, originUrl).href);
       }
       return;
     }));
