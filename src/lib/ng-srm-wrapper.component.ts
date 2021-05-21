@@ -15,7 +15,7 @@ interface SRMMethods {
 export class NgSRMWrapperComponent implements OnInit, AfterViewInit {
   @ViewChild('anchor') anchorEl?: ElementRef;
 
-  @Input() assetManifestUrl!: string;
+  @Input() originUrl!: string;
 
   @Input() exportPath!: string;
 
@@ -56,7 +56,7 @@ export class NgSRMWrapperComponent implements OnInit, AfterViewInit {
   ) { }
 
   async ngOnInit(): Promise<void> {
-    await this.resourceFetcher.loadSRM(this.assetManifestUrl);
+    await this.resourceFetcher.loadSRM(this.originUrl);
     this.initialized = true;
 
     this.loaded.emit(this.anchorEl.nativeElement);
