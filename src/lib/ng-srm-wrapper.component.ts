@@ -56,6 +56,9 @@ export class NgSRMWrapperComponent implements OnInit, AfterViewInit {
   ) { }
 
   async ngOnInit(): Promise<void> {
+    if (!this.originUrl.endsWith('/')) {
+      this.originUrl += '/';
+    }
     await this.resourceFetcher.loadSRM(this.originUrl);
     this.initialized = true;
 
