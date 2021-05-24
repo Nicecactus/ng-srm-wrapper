@@ -67,5 +67,10 @@
   "bugs": {
     "url": "https://github.com/rgoupil/ng-srm-wrapper/issues"
   },
-  "homepage": "https://github.com/rgoupil/ng-srm-wrapper#readme"
+  "homepage": "https://github.com/rgoupil/ng-srm-wrapper#readme",
+  "files": [
+    "src",
+    "dist",
+    "*.json"
+  ]
 }
