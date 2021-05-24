@@ -1,9 +1,9 @@
 {
   "name": "@robingoupil/ng-srm-wrapper",
-  "version": "0.8.6",
+  "version": "0.8.8",
   "scripts": {
     "ng": "ng",
-    "prepare": "yarn build:prod && yarn test",
+    "prepublish": "sh scripts/publish.sh && exit 1",
     "build": "ng build @robingoupil/ng-srm-wrapper",
     "build:watch": "yarn build --watch",
     "build:prod": "yarn build --prod",
@@ -67,10 +67,5 @@
   "bugs": {
     "url": "https://github.com/rgoupil/ng-srm-wrapper/issues"
   },
-  "homepage": "https://github.com/rgoupil/ng-srm-wrapper#readme",
-  "files": [
-    "src",
-    "dist",
-    "*.json"
-  ]
+  "homepage": "https://github.com/rgoupil/ng-srm-wrapper#readme"
 }
