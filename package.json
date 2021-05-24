@@ -1,9 +1,9 @@
 {
   "name": "@robingoupil/ng-srm-wrapper",
-  "version": "0.8.8",
+  "version": "0.8.9",
   "scripts": {
     "ng": "ng",
-    "prepublish": "sh scripts/publish.sh && exit 1",
+    "prepublishOnly": "sh scripts/publish.sh && true",
     "build": "ng build @robingoupil/ng-srm-wrapper",
     "build:watch": "yarn build --watch",
     "build:prod": "yarn build --prod",
