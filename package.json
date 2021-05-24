@@ -1,6 +1,6 @@
 {
   "name": "@robingoupil/ng-srm-wrapper",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "scripts": {
     "ng": "ng",
     "build": "ng build @robingoupil/ng-srm-wrapper",
