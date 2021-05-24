@@ -1,6 +1,6 @@
 {
   "name": "@robingoupil/ng-srm-wrapper",
-  "version": "0.8.5",
+  "version": "0.8.6",
   "scripts": {
     "ng": "ng",
     "prepare": "yarn build:prod && yarn test",
