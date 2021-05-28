@@ -1,19 +1,19 @@
 {
-  "name": "@robingoupil/ng-srm-wrapper",
-  "version": "0.8.9",
+  "name": "@nicecactus/ng-srm-wrapper",
+  "version": "0.8.10",
   "scripts": {
     "ng": "ng",
     "prepublishOnly": "sh scripts/publish.sh && true",
-    "build": "ng build @robingoupil/ng-srm-wrapper",
+    "build": "ng build @nicecactus/ng-srm-wrapper",
     "build:watch": "yarn build --watch",
     "build:prod": "yarn build --prod",
     "build:prod:watch": "yarn build:prod --watch",
-    "test": "ng test @robingoupil/ng-srm-wrapper --watch=false --browsers=ChromeHeadless",
-    "test:watch": "ng test @robingoupil/ng-srm-wrapper",
-    "lint": "ng lint @robingoupil/ng-srm-wrapper"
+    "test": "ng test @nicecactus/ng-srm-wrapper --watch=false --browsers=ChromeHeadless",
+    "test:watch": "ng test @nicecactus/ng-srm-wrapper",
+    "lint": "ng lint @nicecactus/ng-srm-wrapper"
   },
   "peerDependencies": {
-    "@robingoupil/srm": "0.1.x"
+    "@nicecactus/srm": "0.1.x"
   },
   "dependencies": {
     "tslib": "^2.0.0"
@@ -51,21 +51,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rgoupil/ng-srm-wrapper.git"
+    "url": "git+https://github.com/nicecactus/ng-srm-wrapper.git"
   },
   "keywords": [
-    "robingoupil",
-    "rgoupil",
     "react",
     "angular",
     "ng",
     "module",
     "wrapper"
   ],
-  "author": "Robin Goupil",
+  "author": "rgoupil",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rgoupil/ng-srm-wrapper/issues"
+    "url": "https://github.com/nicecactus/ng-srm-wrapper/issues"
   },
-  "homepage": "https://github.com/rgoupil/ng-srm-wrapper#readme"
+  "homepage": "https://github.com/nicecactus/ng-srm-wrapper#readme"
 }

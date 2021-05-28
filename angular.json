@@ -6,7 +6,7 @@
     "packageManager": "yarn"
   },
   "projects": {
-    "@robingoupil/ng-srm-wrapper": {
+    "@nicecactus/ng-srm-wrapper": {
       "projectType": "library",
       "root": "./",
       "sourceRoot": "src",
@@ -47,5 +47,5 @@
       }
     }
   },
-  "defaultProject": "@robingoupil/ng-srm-wrapper"
+  "defaultProject": "@nicecactus/ng-srm-wrapper"
 }

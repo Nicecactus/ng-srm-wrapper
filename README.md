@@ -12,19 +12,20 @@
 
 - [Quick start](#quick-start)
 - [API Reference](#api-reference)
+  - [NgSRMWrapper](#ngsrmwrapper)
 
 ## Quick start
 
-Install `@robingoupil/ng-srm-wrapper`:
+Install `@nicecactus/ng-srm-wrapper`:
 
-- with [npm](https://www.npmjs.com/): `npm install -S @robingoupil/ng-srm-wrapper`
-- with [yarn](https://yarnpkg.com/): `yarn add @robingoupil/ng-srm-wrapper`
+- with [npm](https://www.npmjs.com/): `npm install -S @nicecactus/ng-srm-wrapper`
+- with [yarn](https://yarnpkg.com/): `yarn add @nicecactus/ng-srm-wrapper`
 
 Add the module to NgModule imports
 
 #### **`AppModule`**
 ```ts
-import { NgSRMWrapperModule } from '@robingoupil/ng-srm-wrapper';
+import { NgSRMWrapperModule } from '@nicecactus/ng-srm-wrapper';
 
 @NgModule({
   ...
@@ -79,7 +80,7 @@ const routes: Routes = [
 
 ## API Reference
 
-### [NgSRMWrapper](https://github.com/rgoupil/ng-srm-wrapper/blob/master/src/lib/ng-srm-wrapper.component.ts)
+### [NgSRMWrapper](https://github.com/nicecactus/ng-srm-wrapper/blob/master/src/lib/ng-srm-wrapper.component.ts)
 
 |||
 |-|-|

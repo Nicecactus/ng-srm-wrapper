@@ -3,9 +3,9 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "@robingoupil/ng-srm-wrapper": [
-        "dist/robingoupil/ng-srm-wrapper/robingoupil-ng-srm-wrapper",
-        "dist/robingoupil/ng-srm-wrapper"
+      "@nicecactus/ng-srm-wrapper": [
+        "dist/nicecactus/ng-srm-wrapper/nicecactus-ng-srm-wrapper",
+        "dist/nicecactus/ng-srm-wrapper"
       ]
     },
     "baseUrl": "./",
