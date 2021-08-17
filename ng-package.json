@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "dist/robingoupil/ng-srm-wrapper",
+  "dest": "dist/nicecactus/ng-srm-wrapper",
   "lib": {
     "entryFile": "src/public-api.ts"
   }

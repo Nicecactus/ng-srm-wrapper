@@ -3,9 +3,14 @@ import { ActivatedRoute, NavigationExtras, Router } from '@angular/router';
 import { ResourceFetcherService } from '../services/resource-fetcher.service';
 import { getObjectFromPath } from '../utils/getObjectFromPath';
 
+interface SRMEvent {
+  [value: string]: any;
+}
+
 interface SRMMethods {
   setBasename: (basename: string) => string;
   setLanguage: (language: string) => string;
+  setEvent: (data: SRMEvent) => SRMEvent;
 }
 
 @Component({
@@ -44,6 +49,15 @@ export class NgSRMWrapperComponent implements OnInit, AfterViewInit {
   @Output() loaded = new EventEmitter<HTMLElement>();
 
   @Output() rendered = new EventEmitter<any>();
+
+  private mEvent: SRMEvent;
+  get event(): SRMEvent {
+    return this.mEvent;
+  }
+  @Input() set event(value: SRMEvent) {
+    this.mEvent = value;
+    this.srmMethods?.setEvent(value);
+  }
 
   private initialized = false;
   private executed = false;
@@ -86,6 +100,7 @@ export class NgSRMWrapperComponent implements OnInit, AfterViewInit {
       element: this.anchorEl.nativeElement,
       basename: this.basename,
       language: this.language,
+      event: this.event,
       navigate: (commands: any[], options: NavigationExtras) => this.router.navigate(commands, { relativeTo: this.route, ...options }),
       sendEvent: (id: string, ...args: Array<any>) => this.eventHandlers?.[id]?.(...args),
       ...this.arguments,
