@@ -1,6 +1,6 @@
 {
   "name": "@nicecactus/ng-srm-wrapper",
-  "version": "0.8.10",
+  "version": "0.8.13",
   "scripts": {
     "ng": "ng",
     "prepublishOnly": "sh scripts/publish.sh && true",
