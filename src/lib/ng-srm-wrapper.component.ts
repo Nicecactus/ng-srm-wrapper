@@ -3,7 +3,7 @@ import { ActivatedRoute, NavigationExtras, Router } from '@angular/router';
 import { ResourceFetcherService } from '../services/resource-fetcher.service';
 import { getObjectFromPath } from '../utils/getObjectFromPath';
 
-interface SRMEvent {
+export interface SRMEvent {
   [value: string]: any;
 }
 
